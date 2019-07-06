@@ -14,5 +14,34 @@
   font-size: 80px;
   margin: auto 0;
   font-weight: bold;
+  color: #c39ea0;
+}
+
+.headerText.nightmode {
   color: #fa255e;
+}
+
+.right{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: right;
+}
+
+.nightmode label {
+  color: #ffffff;
+}
+
+.nightmode-toggle.react-toggle--checked.react-toggle--checked .react-toggle-track {
+  background-color: #fa255e;
+}
+.nightmode-toggle.react-toggle--checked.react-toggle--checked .react-toggle-track:hover {
+  background-color: #aaaaaa;
+}
+
+.nightmode-toggle.react-toggle .react-toggle-track {
+  background-color: #c39ea0;
+  color: #ffffff;
+}
+.nightmode-toggle.react-toggle .react-toggle-track:hover {
+  background-color: #000000;
 }
