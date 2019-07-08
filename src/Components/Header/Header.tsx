@@ -49,7 +49,7 @@ export default class Header extends React.Component<any, IState> {
                                 unchecked: <IoIosSunny />,
                             }}
                             onChange={ this.handleChange }/>
-                        <span>Night Mode</span>
+                        <span> Night Mode</span>
                     </label>
                 </div>
                 <div className="header">

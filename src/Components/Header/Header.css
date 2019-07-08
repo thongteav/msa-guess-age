@@ -21,14 +21,23 @@
   color: #fa255e;
 }
 
+.react-toggle-track-x {
+  bottom: 5px;
+}
+
 .right{
   margin-left: 5%;
   margin-right: 5%;
   text-align: right;
+  padding-top: 1em;
 }
 
 .nightmode label {
   color: #ffffff;
+}
+
+.nightmode-toggle {
+  vertical-align: middle;
 }
 
 .nightmode-toggle.react-toggle--checked.react-toggle--checked .react-toggle-track {
